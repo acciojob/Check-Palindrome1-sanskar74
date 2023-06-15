@@ -2,10 +2,10 @@
 
 function palindrome(str){
 	str = str.toLowerCase().replace(/[^a-z0-9]/g, '');
-	let i=str1[0]
-	let j=str1.length-1
+	let i=str[0]
+	let j=str.length-1
 	while (i<j) {
-		if(str1[i]===str1[j])
+		if(str[i]===str[j])
 		{
 			i++
 			j--
