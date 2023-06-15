@@ -14,8 +14,7 @@ function palindrome(str){
 			return false
 		
 	}
-	if(i>j)
-		return true;
+	return true;
 	
 
 }
